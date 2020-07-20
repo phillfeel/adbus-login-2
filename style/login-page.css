@@ -170,7 +170,6 @@ body {
 .myform input.error {
   border: 1px solid red;
 }
-
 .myform .button-original {
   font-family: "Montserrat",sans-serif;
   margin-top: 10px;
@@ -178,7 +177,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   position: relative;
-  background: linear-gradient(90deg,#febf00  20%, #FECC00 80%);
+  background: linear-gradient(0deg,#febf00  20%,  #FECC00 80%);
   border-radius: 22px;
   height: 44px;
   outline: none;
@@ -191,7 +190,6 @@ body {
   text-transform: uppercase;
   transition: all .2s;
 }
-
 .myform .button-original:hover {
   opacity: 0.7;
 }
@@ -207,6 +205,7 @@ body {
   right: 15px;
   width: 18px;
   height: 18px;
+  box-sizing: initial;
 }
 
 .myform .button-original.long svg path {
@@ -305,7 +304,7 @@ body {
 }
 
 .slider-wrap .mySlides .img-slider.first {
-  background-image: url('../img/IMG_0360-4.JPG');
+  background-image: url('../img/IMG_0360-5.JPG');
 }
 .slider-wrap .mySlides .img-slider.second {
   background-image: url('../img/IMG_0352ok2.jpg');
